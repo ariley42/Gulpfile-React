@@ -3,9 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-change": "^1.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "sass": "^1.22.10",
+    "webpack": "^4.39.3",
+    "webpack-dev-middleware": "^3.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "webpack-hot-middleware": "^2.25.0"
   }
 }
